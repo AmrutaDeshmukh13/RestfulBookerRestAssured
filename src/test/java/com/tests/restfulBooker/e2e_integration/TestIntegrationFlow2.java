@@ -1,4 +1,6 @@
 package com.tests.restfulBooker.e2e_integration;
 
-public class TestIntegrationFlow2 {
+import com.base.BaseTest;
+
+public class TestIntegrationFlow2 extends BaseTest {
 }

@@ -12,6 +12,7 @@ import org.testng.annotations.Test;
 
 public class TestCreateBooking extends BaseTest {
 
+
     @Test(groups = "reg", priority = 1)
     @Owner("Pramod Dutta")
     @Description("TC#1 - Verify that the Booking can be Created")
@@ -120,5 +121,4 @@ public class TestCreateBooking extends BaseTest {
         validatableResponse.statusCode(404);
 
     }
-
 }
